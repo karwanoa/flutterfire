@@ -9,8 +9,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.flutter.plugins.firebase.auth
-        pluginClass: FlutterFirebaseAuthPlugin
+        default_package: firebase_rest_auth
       ios:
         pluginClass: FLTFirebaseAuthPlugin
       macos:
